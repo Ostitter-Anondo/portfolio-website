@@ -22,6 +22,10 @@
 }
 
 /* shared stylings */
+a{
+    text-decoration: none;
+    color: #181818;
+}
 main{
     max-width: 1140px;
     margin: 0 auto;
@@ -32,9 +36,13 @@ main{
 .section-title{
     font-size: 35px;
     font-weight: bold;
+    text-align: center;
 }
 .section-description{
     font-size: 18px;
+}
+.text-center{
+    text-align: center;
 }
 
 /* buttons */
@@ -108,7 +116,7 @@ nav li a{
     font-weight: bold;
 }
 .banner-desc{
-    font-size: 30;
+    font-size: 18px;
 }
 .banner-pic{
     width: 580px;
@@ -127,4 +135,84 @@ nav li a{
 }
 .item-desc{
     font-weight: 600;
+}
+
+/* skill sheet styling */
+.skill-sheet{
+    margin-top: 130px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    max-width: 17%;
+}
+
+/* resume summary styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+.resume-col{
+    max-width: 40%;
+}
+.col-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.exp-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.exp-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+.exp-desc{
+    font-size: 16px;
+}
+
+/* footer class */
+
+.footy{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.footy-col{
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.social-btns{
+    display: flex;
+    gap: 24px;
+}
+.social-icon{
+    width: 35px;
+}
+.single-line{
+    padding: 0px 20px;
+    height: 64px;
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    margin: 30px 0;
+    font-size: 16px;
+}
+.multi-line{
+    padding: 20px 20px;
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    margin: 30px 0;
+    font-size: 16px;
 }
